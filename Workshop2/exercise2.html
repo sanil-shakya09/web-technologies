@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sanil's Portfolio</title>
+</head>
+<style>
+    table th td{
+        border: 1px solid black;
+    }
+    table{
+        background-color: black;
+    }
+    td{
+        background-color: white;
+    }
+    .navbar{
+        position: sticky;
+    }
+</style>
+<body>
+    <header>
+        <div>
+            <nav>
+                <a href="#about">About</a>
+                <a href="#education">Education</a>
+                <a href="#hobbies">Hobbies and Interest</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </div>
+    </header>
+    <div id="about">
+        <h1>Sanil Shakya</h1>
+        <p>Born to be the future of Software Engineering... The one and only Sanil Shakya from Earth</p>
+    </div>
+    <img src="assets/hero_image.jpg" alt="Display image of Sanil" width="350">
+    <div id="education">
+        <h3>Education</h3>
+        <table  style="border: 1px solid black; background-color: black;">
+            <thead>
+                 <tr>
+                     <th style="border: 1px solid black; background-color: white;">Year</th>
+                     <th style="border: 1px solid black; background-color: white;">Institution</th>
+                 </tr>
+            </thead>
+             <tbody>
+                 <tr>
+                     <td style="border: 1px solid black; background-color: white;">2022</td>
+                     <td style="border: 1px solid black; background-color: white;">Herald International College</td>
+                 </tr>
+                 <tr>
+                     <td style="border: 1px solid black; background-color: white;">2019-2021</td>
+                     <td style="border: 1px solid black; background-color: white;">Sichuan Agricultural College</td>
+                 </tr>
+                 <tr>
+                     <td style="border: 1px solid black; background-color: white;">2015</td>
+                     <td style="border: 1px solid black; background-color: white;">Prime College</td>
+                 </tr>
+             </tbody>
+         </table>
+    </div>
+    <div id="hobbies">
+        <h3>Interest and Hobbies</h3>
+        <ol>
+            <li>Computer Building</li>
+            <li>Music and Guitars</li>
+        </ol>
+    </div>
+    <div id="contact">
+        <h3>Contact Me</h3>
+        <form action="">
+            <div>
+                <label for="name">Name</label>
+                <input type="text" required>
+            </div>
+            <div>
+                <label for="email">Email</label>
+                <input type="email" required>
+            </div>
+            <div>
+                <label for="message">Message</label>
+                <textarea id="message" rows="6" cols="60"></textarea>
+            </div>
+            <input type="submit" value="submit">
+        </form>
+    </div>
+    <footer>
+        <p>Visit my <a href="https://www.linkedin.com/in/sanil-shakya-1259a2201/">LinkedIn</a> profile</p>
+        <p>Visit my <a href="https://github.com/saw-zer0">Github</a> profile</p>
+        <p>&copy; 2022 | All Rights Reserved</p>
+    </footer>
+</body>
+</html>

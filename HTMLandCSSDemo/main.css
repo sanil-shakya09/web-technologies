@@ -1,0 +1,33 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family:;
+  }
+
+  ul li{
+    list-style: none;
+  }
+
+  a{
+    text-decoration: none;
+  }
+
+  .header{
+    background-color: #2E94CC;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 26px 0px 31px;
+  }
+
+  .container{
+    padding: 50px 20% 50px 20%;
+  }
+
+  .footer{
+    background-color: #F1F1F1;
+  }

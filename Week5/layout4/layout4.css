@@ -1,0 +1,48 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(109, 151, 115);
+    width: 100vw;
+    height: 100vh;
+}
+
+.left{
+    overflow: hidden;
+    width: 50%;
+    height: 100%;
+    position: relative;
+}
+
+img{
+    height:100%;
+    width: auto;
+    position: absolute;
+    right: -30%;
+}
+
+.right{
+    color: white;
+    padding: 100px;
+}
+
+.right-top{
+    font-size: 70px;
+    font-weight: 700;
+}
+
+.right-bottom{
+    margin-top: 70%;
+    font-size: 35px;
+}
+
+h4{
+    font-weight: 200;
+    line-height: 55px;
+}
